@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(pic.jpg) no-repeat;
+    background-size: cover;
+    width: 95%;
+            
+}
+
+.container{
+    position: relative;
+    margin-top: 80px;
+    width: 500px;
+    background:#cce6ff;
+    border-radius: 6px;
+}
+.label{
+    padding: 30px 150px 10px 150px;
+    font-size: 38px;
+    font-weight: bolder;
+    color: darkslategray;
+}
+.login{
+    padding: 20px 40px;
+}
+.login .heading1{
+    font: 18px;
+    color: darkslategray;
+    margin: 5px 1;
+    padding: 0 0 6px 0;
+}
+.pic{
+    top: 0;
+}
+
+.login #user_err, #pass_err{
+    margin-top: 5px;
+    width: 343px;
+    font-size: 18px;
+    color: red;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 2px;
+    display: none;
+}
+.login .heading2{
+    font: 18px;
+    color: darkslategray;
+    margin: 10px 1;
+    padding: 8px 0 6px 0;
+}
+
+.login button{
+    font-size: 20px;
+    color: #fff;
+    margin: 45px 0px 30px 0px;
+    height: 50px;
+    width: 365px;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 2px;
+    background: #304356;
+    border: 1px solid rgba(47, 47, 64, 0.6);
+}
+
+.login button:hover{
+    background: #004080;
+}
+
+.login input{
+    height: 30px;
+    width: 350px;
+    padding: 1px 10px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}

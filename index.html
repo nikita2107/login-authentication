@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Welcome</h1>
+        <form class="login" action="dashboard.html" method="post" name="login_form" onsubmit="return authenticate()">
+            <center> <img  src="OIP-modified (1).png" class= "pic" width="200" height="200" > </center>
+            <div class="heading1">Username</div>
+            <input type ="text" autocomplete="off" name="username">
+            <div id="user_err">Entering username is mandatory</div>
+            <div class="heading2">Password</div>
+            <input type ="password" name="password">
+            <div id="pass_err">Entering password is mandatory</div>
+            <button type="submit"> Login </button>
+
+        </form>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
